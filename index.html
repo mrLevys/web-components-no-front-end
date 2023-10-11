@@ -12,21 +12,21 @@
 <body>
 
     <div class="container">
-        <div class="card">
-            <div class="card__left">
-                <span>by Levy Buarque</span>
-                <h1><a href="#">Darth Vader Contrata Devs</a></h1>
-                <p>Darth Vader procura desenvolvedores que sabem trabalhar com components.</p>
-            </div>
-            <div class="card__right">
-                <img src="assets/img/darth-vader.jpg" alt="Darth Vader">
-            </div>
-        </div>
+        <card-news
+            autor="Levy Buarque"
+            title="Darth Vader Contrata Devs"
+            link-url="www.google.com"
+            content="Darth Vader procura desenvolvedores que sabem trabalhar com components."
+            photo="assets/img/darth-vader.jpg"
+        > </card-news>
+        <card-news
+            title="Yoda convence republica a utilizar components"
+            link-url="www.google.com/yoda"
+            content="Yoda se pronuncia e choca a republica."
+        > </card-news>
     </div>
     
-    <titulo-dinamico titulo="Notícia Urgente"></titulo-dinamico>
-    
-    <card-news></card-news>
+    <!-- <titulo-dinamico titulo="Notícia Urgente"></titulo-dinamico> -->
 
 </body>
 </html>
